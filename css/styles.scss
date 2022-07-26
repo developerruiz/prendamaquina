@@ -107,7 +107,7 @@ header {
 
 
         .logo-menu-movil {
-            width: 6rem;
+            width: 12rem;
         }
 
         .burger-menu {
@@ -164,8 +164,10 @@ header {
     background: #000065;
 }
 
-@media (max-width:600px) {
-
+@media (max-width: 1000px) {
+.bar{
+    display: none;
+}
     .text-sm-center {
         text-align: center;
     }
@@ -188,6 +190,7 @@ header {
 
     .menu-bar-movil {
         display: flex !important;
+        background: $color_blue;
     }
 
     .bg-silueta {

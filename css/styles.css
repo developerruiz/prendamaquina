@@ -109,7 +109,7 @@ header .menu-bar-movil {
 }
 
 header .menu-bar-movil .logo-menu-movil {
-  width: 6rem;
+  width: 12rem;
 }
 
 header .menu-bar-movil .burger-menu {
@@ -156,7 +156,10 @@ header .menu-bar-movil .slideMenu .menu-principal a:hover {
   background: #000065;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
+  .bar {
+    display: none;
+  }
   .text-sm-center {
     text-align: center;
   }
@@ -178,6 +181,7 @@ header .menu-bar-movil .slideMenu .menu-principal a:hover {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
+    background: #223168;
   }
   .bg-silueta {
     height: 600px !important;
